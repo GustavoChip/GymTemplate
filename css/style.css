@@ -196,12 +196,17 @@
     grid-template-columns: repeat(2, 50%);
 }
 
-.icon-facebook {
-    width: 13px;
-    color: white;
+.sociales {
+    display: flex;
 }
 
-svg{
+.icon {
+    width: 13px;
+    color: white;
+    margin-right: 16px;
+}
+
+.icon > svg{
     border: 1px solid gray;
     padding: 2px ;
 }
