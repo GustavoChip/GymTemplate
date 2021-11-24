@@ -1,0 +1,207 @@
+/*Color de titulo Shape*/
+
+.colorShape{
+    color: #e62026;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+/*Configuracion del primer contenedor*/
+.fondo1{
+    background: url("../image/1.jpg")no-repeat fixed;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+/* Color de Textos en Menu*/
+.colortextoblanco{
+    color: #fff;
+}
+
+.colortextoGris{
+    color: #656565;
+    font-size: 15px;
+}
+
+/*Color de fondo al tener el puntero en el menu*/
+.colorMenup:hover{
+    background: #ec4141;
+    cursor: pointer;
+}
+
+.espaciado{
+    /*(padding-top)Espacio de padding de -- Arriba hacia abajo */
+    /*(padding-bottom)Espacio de padding de -- Abajo hacia arriba*/
+    padding-left: 9%; /*Espacio de paddind de -- Izquierda a derecha*/
+    padding-right: 9%; /*Espacio de paddind de -- Derecha a izquierda*/
+}
+
+.fondoMenu{
+    background-color: rgba(0, 0, 0, 0.5); /* Para Colocar color con transparencias se utiliza rgba*/
+}
+
+.altoMenu{
+    height: 50px;
+}
+
+.centradoVH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centradoVertical{
+    display: flex;
+    align-items: center;
+}
+
+.progressText{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.altofila2{
+    height: 450px;
+}
+
+.altototal{
+    height: 100% !important;
+}
+
+.textoAbajo{
+    position: absolute;
+    bottom: 50px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.titulo2{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.titulo4{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.fondo2{
+    background-color: #ec4141;
+    padding-bottom: 7%;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+.fondo4{
+    background-color: #272727;
+    padding-bottom: 7%;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+.fondo5{
+    background-color: black;
+    padding-bottom: 7%;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+.espaciadadoVertical{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.esTexto{
+    margin-top: 2px !important;
+}
+
+.tituloCards{
+    font-size: 18px;
+}
+
+.espacioTitulo{
+    padding: 9px;
+    border: 1px solid #f2f2f2;
+}
+
+.fondoCards{
+    background-color: #fff;
+    padding: 4%;
+}
+
+/*Boton de ejcucion Learn More*/
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 9px 17px;
+    background: #ec4141;
+    color: #fff;
+    font-size: 12px;
+    border: 0px solid;
+    font-family:'Trebuchet MS';
+
+}
+
+/* Section fitness*/
+
+.description__fitness {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ec4141;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .6em;
+    color: #ec4141 ;
+}
+
+.circle > i{
+    border: 1px solid green;
+}
+
+.feature {
+    margin-bottom: 16px;
+}
+
+.description__feature {
+    display: inline;
+}
+
+.description__img {
+    margin-bottom: 25px;
+}
+
+.footer {
+    color: rgb(79, 79, 79);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.icon-facebook {
+    width: 13px;
+    color: white;
+}
+
+svg{
+    border: 1px solid gray;
+    padding: 2px ;
+}
