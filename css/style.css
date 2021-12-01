@@ -98,6 +98,15 @@
     background-size: contain;
 }
 
+.fondo3{
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 7%;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
 .fondo4{
     background-color: #272727;
     padding-bottom: 7%;
@@ -196,17 +205,82 @@
     grid-template-columns: repeat(2, 50%);
 }
 
+
 .sociales {
     display: flex;
 }
 
 .icon {
-    width: 13px;
+    width: 20px;
     color: white;
     margin-right: 16px;
+    height: 25px;
 }
 
 .icon > svg{
-    border: 1px solid gray;
+    border: 1px solid rgb(28, 28, 28);
     padding: 2px ;
+}
+
+.textoInfo{
+    font-size: small;
+    padding-right: 0px;
+}
+
+.iconGym{
+    top: 30px;
+    width: 5%;
+}
+
+.iconColor{
+    color: red;
+}
+
+
+.espacioTitulo3{
+    padding: 0px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cuadro{
+    padding-right: 10px;
+}
+
+/* Footer links*/
+.footer-links{
+    background: black;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul{
+    margin: 0 auto;
+}
+
+.footer-container ul li{
+    line-height: 1.8;
+}
+
+h3{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bordeBlanco{
+    padding-right: 0%;
+    padding-left:  0%;
+    border-bottom: 1px solid gainsboro;
 }
